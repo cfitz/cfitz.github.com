@@ -2,12 +2,12 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://yoursite.com
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+url: http://janitor.se
+title: The Janitor
+subtitle: An Information Blog
+author: Chris Fitzpatrick
 simple_search: http://google.com/search
-description:
+description: These floors are dirty as hell, and I'm not gonna take it any more.
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
@@ -19,7 +19,7 @@ date_format: "ordinal"
 subscribe_rss: /atom.xml
 subscribe_email:
 # RSS feeds can list your email address if you like
-email:
+email: chrisfitzpat@gmail.com
 
 # ----------------------- #
 #    Jekyll & Plugins     #
@@ -63,14 +63,17 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/delicious.
 # ----------------------- #
 
 # Github repositories
-github_user:
+github_user: chrisfitzpat
 github_repo_count: 0
 github_show_profile_link: true
 github_skip_forks: true
 
 # Twitter
-twitter_user:
+twitter_user: chrisfitzpat
 twitter_tweet_button: true
+
+# About.me
+about_url: http://about.me/chrisfitzpatrick
 
 # Google +1
 google_plus_one: false
@@ -90,7 +93,7 @@ delicious_user:
 delicious_count: 3
 
 # Disqus Comments
-disqus_short_name:
+disqus_short_name: chrisfitzpatrick
 disqus_show_comment_count: false
 
 # Google Analytics
